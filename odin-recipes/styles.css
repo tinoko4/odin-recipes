@@ -1,46 +1,72 @@
-body {
-    background-color: #E8DBD8;
-}
 .Homepage,
 .Credit,
 .Savory,
-.SavoryLi,
-.Desserts{
-     text-align: center;
-     font-family: Arial, Helvetica, sans-serif; 
-}
-.Homepage,
-.Savory,
-.Desserts
+.Desserts,
+.SushiHomepage,
+.CreditSushi,
+.SushiRolls,
+.SushiIngredients,
+.SushiDirections
 {
-    margin-top: 40px;
-    margin-bottom: 40px;
+     text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 50px;
+     margin-top: 40px;
+     margin-bottom: 40px;
 }
-.Credit{
-    font-size: 15px;
-}
-.Michelin{
+.Michelin,
+.SushiRolls
+{
     display: block;
     margin: auto;
 }
-.List{
+.Credit,
+.CreditSushi
+{
+    font-size: 15px;
+    margin-top: 10px;
+}
+.SushiRedirect{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.FirstList,
+.SecondList,
+.SushiIngredientsList
+{
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 0;
 }
 .su,
 .la,
 .fc,
-.kb
-{
-    font-size: 25px;
-    margin: 21.440px;
-}
-.SALI,
-.DS{
-    box-sizing: border-box;
-    padding-inline-start: 0%;
-}
+.kb,
 .sc,
-.cr{
+.cr
+{
+    display: inline;
     font-size: 25px;
     margin: 21.440px;
 }
+.SushiDescription
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.SushiDirectionsList{
+    list-style-type: none;
+}
+.SushiSteps{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.SushiImages{
+    padding-left: 200px;
+}
+
+
