@@ -5,18 +5,23 @@
 .SushiHomepage,
 .LasagnaHomepage,
 .FriedChickenHomepage,
+.KoreanBBQHomepage,
 .CreditSushi,
 .LasagnaCredit,
 .FriedChickenCredit,
+.KoreanBBQCredit,
 .SushiRolls,
 .LasagnaPlating,
 .FriedChickenPlating,
+.KoreanPlating,
 .SushiIngredients,
 .LasagnaIngredients,
 .FriedChickenIngredients,
+.KoreanIngredients,
 .SushiDirections,
 .LasagnaDirections,
-.FriedChickenDIrections
+.FriedChickenDirections,
+.KoreanDirections
 {
      text-align: center;
      font-family: Arial, Helvetica, sans-serif;
@@ -27,7 +32,8 @@
 .Michelin,
 .SushiRolls,
 .LasagnaPlate,
-.FriedChickenPlate
+.FriedChickenPlate,
+.KoreanBBQPlate
 {
     display: block;
     margin: auto;
@@ -35,14 +41,16 @@
 .Credit,
 .CreditSushi,
 .LasagnaCredit,
-.FriedChickenCredit
+.FriedChickenCredit,
+.KoreanBBQCredit
 {
     font-size: 15px;
     margin-top: 10px;
 }
 .SushiRedirect,
 .LasagnaRedirect,
-.FriedChickenRedirect
+.FriedChickenRedirect,
+.KoreanBBQRedirect
 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -67,7 +75,8 @@
 }
 .SushiDescription,
 .LasagnaDescription,
-.FriedChickenDescription
+.FriedChickenDescription,
+.KoreanDescription
 {
     padding-left: 560px;
     padding-right: 560px;
@@ -76,13 +85,15 @@
 }
 .SushiDirectionsList,
 .LasagnaDirectionsList,
-.FriedChickenDirectionsList
+.FriedChickenDirectionsList,
+.KBBQDirectionsList
 {
     list-style-type: none;
 }
 .SushiSteps,
 .LasagnaSteps,
-.FriedChickenSteps
+.FriedChickenSteps,
+.KBBQSteps
 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -92,18 +103,19 @@
 }
 .SushiImages,
 .LasagnaImages,
-.FriedChickenImages
+.FriedChickenImages,
+.KBBQImages
 {
     padding-left: 500px;
 }
 .SushiIngredientsList,
 .LasagnaIngredientsList,
-.FriedChickenIngredientsList
+.FriedChickenIngredientsList,
+.KoreanIngredientsList
 {
     padding-left: 560px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     list-style-type: none;
 }
-
 
