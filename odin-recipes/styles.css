@@ -3,10 +3,15 @@
 .Savory,
 .Desserts,
 .SushiHomepage,
+.LasagnaHomepage,
 .CreditSushi,
+.LasagnaCredit,
 .SushiRolls,
+.LasagnaPlating,
 .SushiIngredients,
-.SushiDirections
+.LasagnaIngredients,
+.SushiDirections,
+.LasagnaDirections
 {
      text-align: center;
      font-family: Arial, Helvetica, sans-serif;
@@ -15,24 +20,27 @@
      margin-bottom: 40px;
 }
 .Michelin,
-.SushiRolls
+.SushiRolls,
+.LasagnaPlate
 {
     display: block;
     margin: auto;
 }
 .Credit,
-.CreditSushi
+.CreditSushi,
+.LasagnaCredit
 {
     font-size: 15px;
     margin-top: 10px;
 }
-.SushiRedirect{
+.SushiRedirect,
+.LasagnaRedirect
+{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 .FirstList,
-.SecondList,
-.SushiIngredientsList
+.SecondList
 {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
@@ -49,24 +57,41 @@
     font-size: 25px;
     margin: 21.440px;
 }
-.SushiDescription
+.SushiDescription,
+.LasagnaDescription
 {
-    text-align: center;
+    padding-left: 560px;
+    padding-right: 560px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
-.SushiDirectionsList{
+.SushiDirectionsList,
+.LasagnaDirectionsList
+{
     list-style-type: none;
 }
-.SushiSteps{
+.SushiSteps,
+.LasagnaSteps
+{
     margin-top: 20px;
     margin-bottom: 20px;
-    padding-left: 200px;
+    padding-left: 500px;
+    padding-right: 500px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
 }
-.SushiImages{
-    padding-left: 200px;
+.SushiImages,
+.LasagnaImages
+{
+    padding-left: 500px;
+}
+.SushiIngredientsList,
+.LasagnaIngredientsList
+{
+    padding-left: 560px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    list-style-type: none;
 }
 
 
