@@ -6,24 +6,38 @@
 .LasagnaHomepage,
 .FriedChickenHomepage,
 .KoreanBBQHomepage,
+.StrawCheeseHomepage,
 .CreditSushi,
 .LasagnaCredit,
 .FriedChickenCredit,
 .KoreanBBQCredit,
+.StrawCheeseCredit,
 .SushiRolls,
 .LasagnaPlating,
 .FriedChickenPlating,
 .KoreanPlating,
+.StrawCheesePlating,
 .SushiIngredients,
 .LasagnaIngredients,
 .FriedChickenIngredients,
 .KoreanIngredients,
+.StrawCheeseIngredients,
 .SushiDirections,
 .LasagnaDirections,
 .FriedChickenDirections,
-.KoreanDirections
+.KoreanDirections,
+.StrawCheeseDirections
 {
      text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 50px;
+     margin-top: 40px;
+     margin-bottom: 40px;
+}
+.StrawCheeseCrust,
+.StrawCheeseFilling
+{
+     padding-left: 557px;
      font-family: Arial, Helvetica, sans-serif;
      font-size: 50px;
      margin-top: 40px;
@@ -33,7 +47,8 @@
 .SushiRolls,
 .LasagnaPlate,
 .FriedChickenPlate,
-.KoreanBBQPlate
+.KoreanBBQPlate,
+.StrawCheesePlate
 {
     display: block;
     margin: auto;
@@ -42,7 +57,8 @@
 .CreditSushi,
 .LasagnaCredit,
 .FriedChickenCredit,
-.KoreanBBQCredit
+.KoreanBBQCredit,
+.StrawCheeseCredit
 {
     font-size: 15px;
     margin-top: 10px;
@@ -50,7 +66,8 @@
 .SushiRedirect,
 .LasagnaRedirect,
 .FriedChickenRedirect,
-.KoreanBBQRedirect
+.KoreanBBQRedirect,
+.StrawCheeseRedirect
 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -76,7 +93,8 @@
 .SushiDescription,
 .LasagnaDescription,
 .FriedChickenDescription,
-.KoreanDescription
+.KoreanDescription,
+.StrawCheeseDescription
 {
     padding-left: 560px;
     padding-right: 560px;
@@ -86,14 +104,16 @@
 .SushiDirectionsList,
 .LasagnaDirectionsList,
 .FriedChickenDirectionsList,
-.KBBQDirectionsList
+.KBBQDirectionsList,
+.StrawCheeseDirectionsList
 {
     list-style-type: none;
 }
 .SushiSteps,
 .LasagnaSteps,
 .FriedChickenSteps,
-.KBBQSteps
+.KBBQSteps,
+.StrawCheeseSteps
 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -104,14 +124,17 @@
 .SushiImages,
 .LasagnaImages,
 .FriedChickenImages,
-.KBBQImages
+.KBBQImages,
+.StrawCheeseImages
 {
     padding-left: 500px;
 }
 .SushiIngredientsList,
 .LasagnaIngredientsList,
 .FriedChickenIngredientsList,
-.KoreanIngredientsList
+.KoreanIngredientsList,
+.StrawCheeseCrustIngredientsList,
+.StrawCheeseFillingIngredientsList
 {
     padding-left: 560px;
     font-family: Arial, Helvetica, sans-serif;
