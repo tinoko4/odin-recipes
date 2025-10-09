@@ -7,26 +7,31 @@
 .FriedChickenHomepage,
 .KoreanBBQHomepage,
 .StrawCheeseHomepage,
+.CinnaRollHomepage,
 .CreditSushi,
 .LasagnaCredit,
 .FriedChickenCredit,
 .KoreanBBQCredit,
 .StrawCheeseCredit,
+.CinnaRollCredit,
 .SushiRolls,
 .LasagnaPlating,
 .FriedChickenPlating,
 .KoreanPlating,
 .StrawCheesePlating,
+.CinnaRollPlating,
 .SushiIngredients,
 .LasagnaIngredients,
 .FriedChickenIngredients,
 .KoreanIngredients,
 .StrawCheeseIngredients,
+.CinnaRollsIngredients,
 .SushiDirections,
 .LasagnaDirections,
 .FriedChickenDirections,
 .KoreanDirections,
-.StrawCheeseDirections
+.StrawCheeseDirections,
+.CinnaRollsDirections
 {
      text-align: center;
      font-family: Arial, Helvetica, sans-serif;
@@ -48,7 +53,8 @@
 .LasagnaPlate,
 .FriedChickenPlate,
 .KoreanBBQPlate,
-.StrawCheesePlate
+.StrawCheesePlate,
+.CinnaRollPlate
 {
     display: block;
     margin: auto;
@@ -58,7 +64,8 @@
 .LasagnaCredit,
 .FriedChickenCredit,
 .KoreanBBQCredit,
-.StrawCheeseCredit
+.StrawCheeseCredit,
+.CinnaRollCredit
 {
     font-size: 15px;
     margin-top: 10px;
@@ -67,7 +74,8 @@
 .LasagnaRedirect,
 .FriedChickenRedirect,
 .KoreanBBQRedirect,
-.StrawCheeseRedirect
+.StrawCheeseRedirect,
+.CinnaRollRedirect
 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
@@ -94,7 +102,8 @@
 .LasagnaDescription,
 .FriedChickenDescription,
 .KoreanDescription,
-.StrawCheeseDescription
+.StrawCheeseDescription,
+.CinnaRollDescription
 {
     padding-left: 560px;
     padding-right: 560px;
@@ -105,7 +114,8 @@
 .LasagnaDirectionsList,
 .FriedChickenDirectionsList,
 .KBBQDirectionsList,
-.StrawCheeseDirectionsList
+.StrawCheeseDirectionsList,
+.CinnaRollsDirectionsList
 {
     list-style-type: none;
 }
@@ -113,7 +123,8 @@
 .LasagnaSteps,
 .FriedChickenSteps,
 .KBBQSteps,
-.StrawCheeseSteps
+.StrawCheeseSteps,
+.CinnaRollsSteps
 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -125,7 +136,8 @@
 .LasagnaImages,
 .FriedChickenImages,
 .KBBQImages,
-.StrawCheeseImages
+.StrawCheeseImages,
+.CinnaRollsImages
 {
     padding-left: 500px;
 }
@@ -134,7 +146,8 @@
 .FriedChickenIngredientsList,
 .KoreanIngredientsList,
 .StrawCheeseCrustIngredientsList,
-.StrawCheeseFillingIngredientsList
+.StrawCheeseFillingIngredientsList,
+.CinnaRollsIngredientsList
 {
     padding-left: 560px;
     font-family: Arial, Helvetica, sans-serif;
